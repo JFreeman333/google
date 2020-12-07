@@ -49,21 +49,70 @@ table {
 
 /*==================================================*/
 body {
-    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	padding-top: 20px;
 }
 
 li {
-    display: inline-block;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+a {
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	margin: 150px 0 10px 0;
+}
+
+form {
+	text-align: center;
+}
+
+button {
+	padding: 5px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 1rem;
+}
+
+.container {
+	position: relative;
+	min-height: 100vh;
+}
+
+.img {
+	text-align: center;
+	padding-bottom: 50px;
 }
 
 .left {
-    float: left;
+	float: left;
+	padding-left: 10px;
 }
 
 .center {
-    text-align: center;
+	float: inline-start;
+	text-align: center;
+	padding-left: 40px;
 }
 
 .right {
-    float: right;
+	float: right;
 }
