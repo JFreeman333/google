@@ -77,6 +77,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	padding-bottom: 1rem;
+	
 }
 header, footer {
 	opacity: .75;
@@ -101,12 +102,14 @@ a:hover {
 	float: inline-start;
 	text-align: center;
 	padding-left: 40px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 30px;
 }
 .right {
 	float: right;
 	margin-right: 30px;
 }
-.gradient:hover {
+.gradient {
 	background: linear-gradient(90deg, gray, rgb(157, 235, 157));
 }
 /*
