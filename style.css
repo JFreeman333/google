@@ -77,7 +77,6 @@ footer {
 	bottom: 0;
 	width: 100%;
 	padding-bottom: 1rem;
-	
 }
 header, footer {
 	opacity: .75;
@@ -99,9 +98,9 @@ a:hover {
 	margin-left: 20px;
 }
 .center {
-	float: inline-start;
+	display: inline-block;
 	text-align: center;
-	padding-left: 40px;
+	width: 100%;
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 30px;
 }
@@ -109,7 +108,7 @@ a:hover {
 	float: right;
 	margin-right: 30px;
 }
-.gradient {
+.gradient:hover {
 	background: linear-gradient(90deg, gray, rgb(157, 235, 157));
 }
 /*
@@ -120,8 +119,27 @@ FORM
 form {
 	text-align: center;
 }
+
+.searchbar {
+	display: inline-block;
+	width: 600px;
+	height: 30px;
+	border-radius: 25px;
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+.searchbar:hover {
+	border-color: gray;
+	filter: blur(1px);
+}
 input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	width: 90%;
+	height: 20px;
 	margin-bottom: 20px;
+	border-color: transparent;
+	background-color: transparent;	
 }
 button {
 	margin: 10px 5px 0 0;
